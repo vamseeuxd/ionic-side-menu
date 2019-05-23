@@ -18,7 +18,7 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../home/home.module#HomePageModule'
+            loadChildren: '../pages/home/home.module#HomePageModule'
           }
         ]
       },
@@ -27,7 +27,7 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../about/about.module#AboutPageModule'
+            loadChildren: '../pages/about/about.module#AboutPageModule'
           }
         ]
       },
@@ -36,7 +36,7 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../contact/contact.module#ContactPageModule'
+            loadChildren: '../pages/contact/contact.module#ContactPageModule'
           }
         ]
       }

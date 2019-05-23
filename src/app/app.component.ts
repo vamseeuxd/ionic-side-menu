@@ -26,6 +26,11 @@ export class AppComponent implements OnInit {
       title: 'About',
       url: '/tabs/about',
       icon: 'information-circle'
+    },
+    {
+      title: 'Vertical Cards',
+      url: '/vertical-cards',
+      icon: 'information-circle'
     }
   ];
 
