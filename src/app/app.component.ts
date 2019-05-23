@@ -31,6 +31,11 @@ export class AppComponent implements OnInit {
       title: 'Vertical Cards',
       url: '/vertical-cards',
       icon: 'information-circle'
+    },
+    {
+      title: 'Horizontal Cards',
+      url: '/horizontal-cards',
+      icon: 'information-circle'
     }
   ];
 
